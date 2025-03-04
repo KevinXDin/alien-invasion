@@ -7,24 +7,27 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.ESCAPE, function (sprite, otherS
     createlevel1()
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    projectile2 = sprites.createProjectileFromSprite(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . f f f f f f f f f f f f . . 
-        . . f 2 2 2 2 2 2 2 2 2 2 f . . 
-        . . f 1 1 1 1 1 1 1 1 1 1 f . . 
-        . . f 2 2 2 2 2 2 2 2 2 2 f . . 
-        . . f f f f f f f f f f f f . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, spacePlane, 200, 0)
+    if (controller.A.isPressed()) {
+        projectile2 = sprites.createProjectileFromSprite(img`
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . f f f f f f f f f f f f . . 
+            . . f 2 2 2 2 2 2 2 2 2 2 f . . 
+            . . f 1 1 1 1 1 1 1 1 1 1 f . . 
+            . . f 2 2 2 2 2 2 2 2 2 2 f . . 
+            . . f f f f f f f f f f f f . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            . . . . . . . . . . . . . . . . 
+            `, spacePlane, 200, 0)
+        pause(1000)
+    }
 })
 info.onCountdownEnd(function () {
     mySprite = sprites.create(img`
@@ -54,19 +57,19 @@ info.onCountdownEnd(function () {
 })
 function clearlevel1 () {
     for (let value of sprites.allOfKind(SpriteKind.Enemy)) {
-        sprites.destroy(value, effects.spray, 500)
-        sprites.destroy(value, effects.spray, 500)
+        sprites.destroy(value, effects.spray, 100)
     }
     for (let value of sprites.allOfKind(SpriteKind.ESCAPE)) {
-    	
+        sprites.destroy(value, effects.spray, 100)
     }
+    sprites.destroy(projectile2)
 }
 function createlevel1 () {
     tiles.setCurrentTilemap(tilemap`level4`)
     scene.cameraFollowSprite(spacePlane)
-    tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleInsignia)
+    tiles.placeOnRandomTile(spacePlane, sprites.dungeon.collectibleBlueCrystal)
 }
-scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.purpleSwitchUp, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
     game.setGameOverEffect(true, effects.dissolve)
     game.setGameOverMessage(true, "WELL DONE!")
     game.gameOver(true)
