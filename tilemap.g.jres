@@ -53,7 +53,7 @@
     "level4": {
         "id": "level4",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxMDAwMTAwMDAyMGMwZTBlMGUwZTBlMGUwZTBlMGUwZTBlMGUwZTBlMGUwZDBjMTAwYzBlMGMxMDBjMGMwYzEwMGMwYzA2MGUwZTBlMGUwYzBjMGUwYzBlMGUwZTBlMGUwZTBlMTEwZTBlMGIwYjBkMGUwZTBjMTAwZTBjMTAwYzBlMDcwNzBlMGUxMjBiMGIwZDBlMGMwYzBjMGMwZTA2MGUwNzBlMGUwZTBlMGUwZTEyMGUwYzBlMGUwZTBlMTEwZTA3MDcwZTBlMGIwYjBiMGIwZTBkMGMxMDBlMGUwNzBlMDcwNzBlMGUwYjBlMGUwZTBlMGUwZTA1MDcwZTA3MGUwZTExMGUwZTEyMGIwYjBiMGIwYjAzMDQxMTBlMTEwZTBlMDcwZTBlMGUwZTBiMGUwZTBlMGUwZTBlMGUwNzBlMGUwNzBlMGUwYjBiMGIwZTBhMDgwODBmMDgwZTA3MGUwNzExMGUwZTBiMGUwZTBlMGUwODBlMGUwZTBlMDkwZTA3MDcwZTBlMTIwZTBhMDgwODA4MGUwODA4MDgwZjBlMGUwZTBlMGUwYjBhMDgwZTBlMGUwZTA4MGUwZTBlMGUwOTA3MGUwZTBhMGYwODBlMDgwODBmMDgwODA4MGYwODA4MDkwZTBlMGUwZTBlMGUwZTBlMGUwZTBlMGUwZTBlMGUwODAxMDAyMjIyMjIyMjIyMjIyMjAyMDAyMDAwMDAwMDAwMjAyMjAyMjAyMDIyMjIyMjIwMDIwMDIyMDAwMjAwMDIyMDAyMDAyMDAwMDAwMjAyMjIyMjIyMjAyMDIyMDIwMjIwMDIwMDIwMDAyMDAyMDIyMDAyMjIyMjIyMDAwMjIyMjAwMjAwMDAwMDAwMDIyMjIwMjIwMjIyMjIyMjAyMjIyMDAyMDAwMjAwMDAwMjAyMjAwMjIyMjIyMDIyMDIwMjIwMDIwMjAwMjAwMDAwMjIyMjAyMDAyMjIyMjAyMjAyMjAwMjAwMDIwMDAwMDAwMDIwMjIyMjIyMjIyMjIyMjIwMA==",
+        "data": "MTAxMDAwMTAwMDAyMGMxMjEyMTIxMjEyMTIxMjEyMTIxMjEyMTIxMjEyMTIwZDBjMGYwYzEyMGMwZjBjMGMwYzBmMGMwYzA2MTIxMjEyMTIwYzBjMTIwYzEyMTIxMjEyMTIxMjEyMTAxMjEyMGIwYjBkMTIxMjBjMGYxMjBjMGYwYzEyMDcwNzEyMTIxMTBiMGIwZDEyMGMwYzBjMGMxMjA2MTIwNzEyMTIxMjEyMTIxMjExMTIwYzEyMTIxMjEyMTAxMjA3MDcxMjEyMGIwYjBiMGIxMjBkMGMwZjEyMTIwNzEyMDcwNzEyMTIwYjEyMTIxMjEyMTIxMjA1MDcxMjA3MTIxMjEwMTIxMjExMGIwYjBiMGIwYjAzMDQxMDEyMTAxMjEyMDcxMjEyMTIxMjBiMTIxMjEyMTIxMjEyMTIwNzEyMTIwNzEyMTIwYjBiMGIxMjBhMDgwODBlMDgxMjA3MTIwNzEwMTIxMjBiMTIxMjEyMTIwODEyMTIxMjEyMDkxMjA3MDcxMjEyMTExMjBhMDgwODA4MTIwODA4MDgwZTEyMTIxMjEyMTIwYjBhMDgxMjEyMTIxMjA4MTIxMjEyMTIwOTA3MTIxMjBhMGUwODEyMDgwODBlMDgwODA4MGUwODA4MDkxMjEyMTIxMjEyMTIxMjEyMTIxMjEyMTIxMjEyMTIwODAxMDAyMjIyMjIyMjIyMjIyMjAyMDAyMDAwMDAwMDAwMjAyMjAyMjAyMDIyMjIyMjIwMDIwMDIyMDAwMjAwMDIyMDAyMDAyMDAwMDAwMjAyMjIyMjIyMjAyMDIyMDIwMjIwMDIwMDIwMDAyMDAyMDIyMDAyMjIyMjIyMDAwMjIyMjAwMjAwMDAwMDAwMDIyMjIwMjIwMjIyMjIyMjAyMjIyMDAyMDAwMjAwMDAwMjAyMjAwMjIyMjIyMDIyMDIwMjIwMDIwMjAwMjAwMDAwMjIyMjAyMDAyMjIyMjAyMjAyMjAwMjAwMDIwMDAwMDAwMDIwMjIyMjIyMjIyMjIyMjIwMA==",
         "tileset": [
             "myTiles.transparency16",
             "sprites.dungeon.collectibleRedCrystal",
@@ -69,11 +69,11 @@
             "sprites.dungeon.greenOuterWest1",
             "sprites.dungeon.greenOuterNorth0",
             "sprites.dungeon.greenOuterNorthWest",
-            "sprites.dungeon.floorLight5",
             "sprites.dungeon.greenOuterSouth2",
             "sprites.dungeon.greenOuterNorth2",
             "sprites.dungeon.greenOuterEast2",
-            "sprites.dungeon.greenOuterWest2"
+            "sprites.dungeon.greenOuterWest2",
+            "sprites.builtin.forestTiles0"
         ],
         "displayName": "level4"
     },
