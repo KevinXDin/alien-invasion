@@ -73,7 +73,7 @@
             "sprites.dungeon.greenOuterNorth2",
             "sprites.dungeon.greenOuterEast2",
             "sprites.dungeon.greenOuterWest2",
-            "sprites.builtin.forestTiles0"
+            "sprites.dungeon.floorLightMoss"
         ],
         "displayName": "level4"
     },

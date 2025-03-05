@@ -53,7 +53,7 @@ info.onCountdownEnd(function () {
         ....................
         `, SpriteKind.ESCAPE)
     mySprite.setVelocity(0, 25)
-    mySprite.setPosition(80, 0)
+    mySprite.setPosition(150, 0)
 })
 function clearlevel1 () {
     for (let value of sprites.allOfKind(SpriteKind.Enemy)) {
@@ -240,7 +240,8 @@ scene.setBackgroundImage(img`
     `)
 spacePlane.setStayInScreen(true)
 info.setLife(3)
-info.startCountdown(1)
+info.startCountdown(30)
+spacePlane.setPosition(0, 60)
 forever(function () {
     if (gameRunning) {
         Tony = sprites.create(img`
