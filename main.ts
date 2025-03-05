@@ -53,7 +53,7 @@ info.onCountdownEnd(function () {
         ....................
         `, SpriteKind.ESCAPE)
     mySprite.setVelocity(0, 25)
-    mySprite.setPosition(150, 0)
+    mySprite.setPosition(125, 0)
 })
 function clearlevel1 () {
     for (let value of sprites.allOfKind(SpriteKind.Enemy)) {
